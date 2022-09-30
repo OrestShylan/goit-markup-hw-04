@@ -318,17 +318,28 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 40px;
+  width: calc((100% - 60px) / 3);
 }
 
 .member-soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--accent-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.member-soc-icon {
+  fill: #ffffff;
+}
+
+.member-soc-link:hover,
+.member-soc-link:focus {
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
+}
+
 /* BUTTON */
 
 .button.primary {
