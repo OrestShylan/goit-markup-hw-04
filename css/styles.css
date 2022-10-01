@@ -276,6 +276,15 @@ body {
   display: flex;
   gap: 30px;
 }
+.advences-icon {
+  display: flex;
+  height: 120px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
 
 .member-title {
   margin-top: 30px;
@@ -343,6 +352,45 @@ body {
   fill: #ffffff;
 }
 
+/* ПОСТІЙНІ КЛІЄНТИ */
+.regular-client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.client-link {
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-button-color);
+  fill: #afb1b8;
+}
+
+.client-link:hover,
+.client-link:focus {
+  fill: var(--accent-text-color);
+  border-color: var(--accent-text-color);
+}
 /* BUTTON */
 
 .button.primary {
