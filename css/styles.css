@@ -161,6 +161,10 @@ body {
   color: var(--accent-text-color);
 }
 
+.contact-nav-icon:hover {
+  fill: currentColor;
+}
+
 /* HERO */
 .hero {
   max-width: 1600px;
