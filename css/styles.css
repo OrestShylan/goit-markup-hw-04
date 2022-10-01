@@ -429,8 +429,8 @@ body {
 }
 
 .footer-container {
-  display: block;
-  align-items: center;
+  display: flex;
+  align-items: baseline;
   margin: 0 auto;
 }
 .site-nav.link {
@@ -450,7 +450,6 @@ body {
 
 .footer-link {
   margin-bottom: 9px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -462,6 +461,10 @@ body {
 
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer-link-container {
+  margin-left: 70px;
 }
 
 .footer-link:focus,
@@ -493,8 +496,13 @@ body {
 .footer-item {
   margin-top: 20px;
 }
+.footer-icon {
+  fill: #ffffff;
+}
 
 .footer-link-title {
+  margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -507,6 +515,23 @@ body {
   left: 516px;
   top: 2748px;
 }
+
+.footer-link-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link-icon:focus,
+.footer-link-icon:hover {
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
+}
+
 .sub-list {
   display: flex;
   align-items: center;
