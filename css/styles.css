@@ -493,3 +493,23 @@ body {
 .footer-item {
   margin-top: 20px;
 }
+
+.footer-link-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-button-color);
+  position: center;
+  width: 116px;
+  height: 16px;
+  left: 516px;
+  top: 2748px;
+}
+.sub-list {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 10px;
+}
