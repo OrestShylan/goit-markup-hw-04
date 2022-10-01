@@ -160,6 +160,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
+
 /* HERO */
 .hero {
   max-width: 1600px;
@@ -272,9 +273,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.advences-list {
   display: flex;
   gap: 30px;
 }
@@ -331,13 +329,18 @@ body {
   justify-content: center;
 }
 .member-soc-icon {
-  fill: #ffffff;
+  fill: #afb1b8;
 }
 
 .member-soc-link:hover,
 .member-soc-link:focus {
   border-radius: 50%;
   background-color: var(--accent-text-color);
+}
+
+.member-soc-link:hover .member-soc-icon,
+.member-soc-link:focus .member-soc-icon {
+  fill: #ffffff;
 }
 
 /* BUTTON */
