@@ -329,6 +329,10 @@ body {
   cursor: pointer;
 }
 
+.footer-link-container {
+  margin-left: 70px;
+}
+
 .footer-link:focus,
 .footer-link:hover {
   color: var(--accent-text-color);
