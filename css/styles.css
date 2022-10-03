@@ -94,6 +94,11 @@ body {
 }
 
 /* SITE NAV */
+
+.main-header {
+  border: 1px solid #ececec;
+}
+
 .web.logo {
   color: var(--accent-text-color);
 }
@@ -480,8 +485,7 @@ body {
 .item-mail {
   margin-bottom: 9px;
 }
-.item-tel {
-}
+
 .footer-adress {
   margin-top: 20px;
   margin-bottom: 9px;

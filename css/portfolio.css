@@ -99,6 +99,9 @@ body {
 }
 
 /* MAIN NAV */
+.portfolio-header {
+  border: 1px solid #ececec;
+}
 
 .main-nav {
   display: flex;
@@ -343,8 +346,13 @@ body {
   color: var(--accent-text-color);
 }
 
+.item-mail {
+  margin-bottom: 9px;
+}
+
 .footer-item {
   margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-icon {
