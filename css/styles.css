@@ -119,6 +119,16 @@ body {
   display: flex;
   margin-left: auto;
 }
+.contact-link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-nav-icon {
+  fill: currentColor;
+}
+
 .site-nav .item + .item {
   margin-left: 50px;
 }
@@ -328,7 +338,7 @@ body {
 }
 .member-list {
   display: flex;
-  gap: 10px;
+
   justify-content: center;
   margin-bottom: 46px;
   margin-right: auto;

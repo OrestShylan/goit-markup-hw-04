@@ -126,6 +126,16 @@ body {
   margin-left: auto;
 }
 
+.contact-link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-nav-icon {
+  fill: currentColor;
+}
 .site-nav .item + .item {
   margin-left: 50px;
 }
