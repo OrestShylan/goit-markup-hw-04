@@ -319,18 +319,23 @@ body {
 
   gap: 30px;
   margin-top: 50px;
+  margin-bottom: 40px;
 }
 .member-list {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 46px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .member-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 40px;
-  width: calc((100% - 60px) / 3);
+
+  width: calc((100% - 30px) / 4);
 }
 
 .member-soc-link {
@@ -472,6 +477,11 @@ body {
   color: var(--accent-text-color);
 }
 
+.item-mail {
+  margin-bottom: 9px;
+}
+.item-tel {
+}
 .footer-adress {
   margin-top: 20px;
   margin-bottom: 9px;
@@ -495,6 +505,7 @@ body {
 
 .footer-item {
   margin-top: 20px;
+  margin-bottom: 9px;
 }
 .footer-icon {
   fill: #ffffff;
